@@ -5,7 +5,7 @@ The goal of this project was to create an easy to understand implementation of t
 To make the project more user friendly I created a simple CLI BoardGame in which you can try out the algorithm.
 
 ## Things that can be improved
-As the main focus of this project was to implement the pathfinding algorithm and not to create a game the whole Demo part can be improved. 
+As the main focus of this project was to implement the pathfinding algorithm (and not to create a game) the whole Demo part could be improved. 
 Example: 
 1. Baking the node data once, after the start and destination node is selected would be much better, but I stuck with a more common logic as it's more flexible.
 2. Currently the Node cost variable is always 0, but it can be used to indicate different terrains, etc.

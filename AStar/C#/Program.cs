@@ -69,7 +69,7 @@ namespace Pathfinding {
     }
 
     /// <summary>
-    /// Checks if the string is a number.static If it is, sets the number via reference.
+    /// Checks if the string is a number, if it is, sets the number via reference.
     /// </summary>
     /// <param name="input">The input string which needs to be evaluated.</param>
     /// <param name="number">The reference number which requires the value.</param>
@@ -98,10 +98,10 @@ namespace Pathfinding {
     }
 
     /// <summary>
-    /// Displays a guide text for the user and evaluates if the input fit's the requirements. Repeats until a valid response is not given.
+    /// Displays a guide text for the user and evaluates if the input fits the requirements. Repeats until a valid response is not given.
     /// </summary>
     /// <param name="text">The guide text, which ask the input from the user.</param>
-    /// <param name="coordinate">The requires coordinate.</param>
+    /// <param name="coordinate">The required coordinate.</param>
     private static void SetCoordinate(string text, out int coordinate){
       System.Console.WriteLine(text);
 
@@ -113,7 +113,7 @@ namespace Pathfinding {
     /// <summary>
     /// Checks the user input for commands.
     /// </summary>
-    /// <param name="input">The input that the user provided.</param>
+    /// <param name="input">The input that the user has provided.</param>
     /// <returns>
     /// The input string.
     /// </returns>

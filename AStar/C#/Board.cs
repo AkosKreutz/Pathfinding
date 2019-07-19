@@ -60,7 +60,7 @@ namespace Pathfinding {
     }
 
     /// <summary>
-    /// Generates a string from the node matrix and ads marking numbers to it, then writes it to the console.
+    /// Generates a string from the node matrix and adds marking numbers to it, then writes it to the console.
     /// </summary>
     public void DrawBoard(){
       //Using StringBuilder for better performance as the board size can change.
